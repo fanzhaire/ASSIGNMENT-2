@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
@@ -43,7 +44,9 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
             label1.Font = new Font("Microsoft YaHei UI", 18.181818F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.ForeColor = SystemColors.ButtonFace;
             label1.Location = new Point(129, 68);
             label1.Margin = new Padding(5, 0, 5, 0);
             label1.Name = "label1";
@@ -55,10 +58,13 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(350, 191);
+            label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Microsoft YaHei UI", 10.5F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.ForeColor = SystemColors.MenuBar;
+            label2.Location = new Point(344, 186);
             label2.Margin = new Padding(5, 0, 5, 0);
             label2.Name = "label2";
-            label2.Size = new Size(100, 24);
+            label2.Size = new Size(124, 28);
             label2.TabIndex = 2;
             label2.Text = "Username:";
             label2.Click += label2_Click;
@@ -66,10 +72,13 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(350, 246);
+            label3.BackColor = Color.Transparent;
+            label3.Font = new Font("Microsoft YaHei UI", 10.5F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.ForeColor = SystemColors.MenuBar;
+            label3.Location = new Point(348, 241);
             label3.Margin = new Padding(5, 0, 5, 0);
             label3.Name = "label3";
-            label3.Size = new Size(95, 24);
+            label3.Size = new Size(119, 28);
             label3.TabIndex = 3;
             label3.Text = "Password:";
             label3.Click += label3_Click;
@@ -95,7 +104,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(399, 395);
+            button1.Location = new Point(304, 395);
             button1.Margin = new Padding(5, 4, 5, 4);
             button1.Name = "button1";
             button1.Size = new Size(121, 34);
@@ -106,7 +115,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(569, 395);
+            button2.Location = new Point(663, 395);
             button2.Margin = new Padding(5, 4, 5, 4);
             button2.Name = "button2";
             button2.Size = new Size(121, 34);
@@ -118,6 +127,8 @@
             // radioUser
             // 
             radioUser.AutoSize = true;
+            radioUser.BackColor = Color.Transparent;
+            radioUser.ForeColor = SystemColors.MenuBar;
             radioUser.Location = new Point(319, 312);
             radioUser.Margin = new Padding(5, 4, 5, 4);
             radioUser.Name = "radioUser";
@@ -125,11 +136,13 @@
             radioUser.TabIndex = 8;
             radioUser.TabStop = true;
             radioUser.Text = "User";
-            radioUser.UseVisualStyleBackColor = true;
+            radioUser.UseVisualStyleBackColor = false;
             // 
             // radioAdmin
             // 
             radioAdmin.AutoSize = true;
+            radioAdmin.BackColor = Color.Transparent;
+            radioAdmin.ForeColor = SystemColors.MenuBar;
             radioAdmin.Location = new Point(493, 312);
             radioAdmin.Margin = new Padding(5, 4, 5, 4);
             radioAdmin.Name = "radioAdmin";
@@ -137,12 +150,14 @@
             radioAdmin.TabIndex = 9;
             radioAdmin.TabStop = true;
             radioAdmin.Text = "Admin";
-            radioAdmin.UseVisualStyleBackColor = true;
+            radioAdmin.UseVisualStyleBackColor = false;
             radioAdmin.CheckedChanged += radioButton2_CheckedChanged;
             // 
             // radioReception
             // 
             radioReception.AutoSize = true;
+            radioReception.BackColor = Color.Transparent;
+            radioReception.ForeColor = SystemColors.MenuBar;
             radioReception.Location = new Point(682, 312);
             radioReception.Margin = new Padding(5, 4, 5, 4);
             radioReception.Name = "radioReception";
@@ -150,12 +165,14 @@
             radioReception.TabIndex = 10;
             radioReception.TabStop = true;
             radioReception.Text = "Reception";
-            radioReception.UseVisualStyleBackColor = true;
+            radioReception.UseVisualStyleBackColor = false;
             // 
             // Login
             // 
             AutoScaleDimensions = new SizeF(11F, 24F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1070, 525);
             Controls.Add(radioReception);
             Controls.Add(radioAdmin);

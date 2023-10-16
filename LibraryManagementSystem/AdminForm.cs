@@ -72,6 +72,7 @@ namespace LibraryManagementSystem
                 }
 
                 context.SaveChanges();
+                MessageBox.Show("Changes saved.", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 

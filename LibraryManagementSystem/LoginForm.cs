@@ -59,23 +59,23 @@ namespace LibraryManagementSystem
                     if (role == "admin" && radioAdmin.Checked)
                     {
                         MessageBox.Show("Admin Logged in Successfully!", "Success");
-                       
+
                         var adminForm = new AdminForm();
                         adminForm.Show();
-                        this.Hide(); 
+                        this.Hide();
                     }
                     else if (role == "user" && radioUser.Checked)
                     {
                         MessageBox.Show("User Logged in Successfully!", "Success");
-                       
+
                         var userForm = new UserForm();
                         userForm.Show();
-                        this.Hide(); 
+                        this.Hide();
                     }
                     else if (role == "reception" && radioReception.Checked)
                     {
                         MessageBox.Show("Reception Logged in Successfully!", "Success");
-                        
+
                         var receptionForm = new ReceptionForm();
                         receptionForm.Show();
                         this.Hide();

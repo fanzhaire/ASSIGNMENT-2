@@ -114,6 +114,7 @@
             BookIdColumn.HeaderText = "BookId";
             BookIdColumn.MinimumWidth = 8;
             BookIdColumn.Name = "BookIdColumn";
+            BookIdColumn.ReadOnly = true;
             BookIdColumn.Width = 106;
             // 
             // TitleColumn

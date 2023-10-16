@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 8.0.34, for Win64 (x86_64)
+-- MySQL dump 10.13  Distrib 8.0.29, for Win64 (x86_64)
 --
 -- Host: localhost    Database: library
 -- ------------------------------------------------------
--- Server version	8.0.34
+-- Server version	8.0.29
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -16,30 +16,30 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `admins`
+-- Table structure for table `loginaccount`
 --
 
-DROP TABLE IF EXISTS `admins`;
+DROP TABLE IF EXISTS `loginaccount`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `admins` (
-  `AdminId` int NOT NULL,
+CREATE TABLE `loginaccount` (
+  `Id` int NOT NULL AUTO_INCREMENT,
   `Username` varchar(45) NOT NULL,
   `Password` varchar(45) NOT NULL,
   `Role` varchar(45) NOT NULL,
-  PRIMARY KEY (`AdminId`),
-  UNIQUE KEY `idabc_UNIQUE` (`AdminId`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+  PRIMARY KEY (`Id`),
+  UNIQUE KEY `idabc_UNIQUE` (`Id`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `admins`
+-- Dumping data for table `loginaccount`
 --
 
-LOCK TABLES `admins` WRITE;
-/*!40000 ALTER TABLE `admins` DISABLE KEYS */;
-INSERT INTO `admins` VALUES (1,'Emma','123','admin'),(2,'ABC','456','admin');
-/*!40000 ALTER TABLE `admins` ENABLE KEYS */;
+LOCK TABLES `loginaccount` WRITE;
+/*!40000 ALTER TABLE `loginaccount` DISABLE KEYS */;
+INSERT INTO `loginaccount` VALUES (1,'Emma','123','admin'),(2,'Mike','456','user'),(3,'Alice','789','reception'),(4,'Kevin','abc','Reception');
+/*!40000 ALTER TABLE `loginaccount` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -51,4 +51,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-10-10 23:27:33
+-- Dump completed on 2023-10-16 17:01:06

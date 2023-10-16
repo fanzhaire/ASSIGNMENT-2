@@ -278,3 +278,4 @@ C:\Users\jing\Desktop\ASSIGNMENT-2-master\LibraryManagementSystem\obj\Debug\net6
 C:\Users\jing\Desktop\ASSIGNMENT-2-master\LibraryManagementSystem\obj\Debug\net6.0-windows\LibraryManagementSystem.UserForm.resources
 C:\Users\jing\Desktop\ASSIGNMENT-2-master\LibraryManagementSystem\obj\Debug\net6.0-windows\LibraryManagementSystem.AddBookForm.resources
 C:\Users\jing\Desktop\ASSIGNMENT-2-master\LibraryManagementSystem\obj\Debug\net6.0-windows\LibraryManagementSystem.AddReceptionForm.resources
+C:\Users\jing\Desktop\ASSIGNMENT-2-master\LibraryManagementSystem\obj\Debug\net6.0-windows\LibraryManagementSystem.Properties.Resources.resources
