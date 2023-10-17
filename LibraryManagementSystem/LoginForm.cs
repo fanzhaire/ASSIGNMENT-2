@@ -69,6 +69,7 @@ namespace LibraryManagementSystem
                         MessageBox.Show("User Logged in Successfully!", "Success");
 
                         var userForm = new UserForm();
+                        userForm.CurrentUserId = account.Id;
                         userForm.Show();
                         this.Hide();
                     }
@@ -100,7 +101,8 @@ namespace LibraryManagementSystem
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            RegisterForm registerForm = new RegisterForm();
+            registerForm.Show();
         }
     }
 }

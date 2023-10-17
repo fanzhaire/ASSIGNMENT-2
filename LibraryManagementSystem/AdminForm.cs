@@ -128,5 +128,15 @@ namespace LibraryManagementSystem
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            var loginForm = Application.OpenForms.OfType<Login>().FirstOrDefault();
+            if (loginForm != null)
+            {
+                loginForm.Show();
+            }
+            this.Hide();
+        }
     }
 }

@@ -3278,23 +3278,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jing\\.nuget\\packages\\": {},
+    "C:\\Users\\25762\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jing\\Desktop\\ASSIGNMENT-2-master\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
+      "projectUniqueName": "C:\\Users\\25762\\Desktop\\ASSIGNMENT-2-master\\ASSIGNMENT-2-master\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
       "projectName": "LibraryManagementSystem",
-      "projectPath": "C:\\Users\\jing\\Desktop\\ASSIGNMENT-2-master\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
-      "packagesPath": "C:\\Users\\jing\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jing\\Desktop\\ASSIGNMENT-2-master\\LibraryManagementSystem\\obj\\",
+      "projectPath": "C:\\Users\\25762\\Desktop\\ASSIGNMENT-2-master\\ASSIGNMENT-2-master\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
+      "packagesPath": "C:\\Users\\25762\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\25762\\Desktop\\ASSIGNMENT-2-master\\ASSIGNMENT-2-master\\LibraryManagementSystem\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\jing\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\25762\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3368,7 +3368,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

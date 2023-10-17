@@ -279,3 +279,11 @@ C:\Users\jing\Desktop\ASSIGNMENT-2-master\LibraryManagementSystem\obj\Debug\net6
 C:\Users\jing\Desktop\ASSIGNMENT-2-master\LibraryManagementSystem\obj\Debug\net6.0-windows\LibraryManagementSystem.AddBookForm.resources
 C:\Users\jing\Desktop\ASSIGNMENT-2-master\LibraryManagementSystem\obj\Debug\net6.0-windows\LibraryManagementSystem.AddReceptionForm.resources
 C:\Users\jing\Desktop\ASSIGNMENT-2-master\LibraryManagementSystem\obj\Debug\net6.0-windows\LibraryManagementSystem.Properties.Resources.resources
+C:\Users\25762\Desktop\ASSIGNMENT-2-master\ASSIGNMENT-2-master\LibraryManagementSystem\obj\Debug\net6.0-windows\LibraryManagementSystem.AddBookForm.resources
+C:\Users\25762\Desktop\ASSIGNMENT-2-master\ASSIGNMENT-2-master\LibraryManagementSystem\obj\Debug\net6.0-windows\LibraryManagementSystem.AddReceptionForm.resources
+C:\Users\25762\Desktop\ASSIGNMENT-2-master\ASSIGNMENT-2-master\LibraryManagementSystem\obj\Debug\net6.0-windows\LibraryManagementSystem.AdminForm.resources
+C:\Users\25762\Desktop\ASSIGNMENT-2-master\ASSIGNMENT-2-master\LibraryManagementSystem\obj\Debug\net6.0-windows\LibraryManagementSystem.Properties.Resources.resources
+C:\Users\25762\Desktop\ASSIGNMENT-2-master\ASSIGNMENT-2-master\LibraryManagementSystem\obj\Debug\net6.0-windows\LibraryManagementSystem.ReceptionForm.resources
+C:\Users\25762\Desktop\ASSIGNMENT-2-master\ASSIGNMENT-2-master\LibraryManagementSystem\obj\Debug\net6.0-windows\LibraryManagementSystem.UserForm.resources
+C:\Users\25762\Desktop\ASSIGNMENT-2-master\ASSIGNMENT-2-master\LibraryManagementSystem\obj\Debug\net6.0-windows\LibraryManagementSystem.PersonalInfo.resources
+C:\Users\25762\Desktop\ASSIGNMENT-2-master\ASSIGNMENT-2-master\LibraryManagementSystem\obj\Debug\net6.0-windows\LibraryManagementSystem.RegisterForm.resources

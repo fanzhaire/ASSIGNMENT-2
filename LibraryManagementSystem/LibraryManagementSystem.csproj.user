@@ -13,7 +13,13 @@
     <Compile Update="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="PersonalInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="ReceptionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RegisterForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="UserForm.cs">
