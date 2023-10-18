@@ -112,6 +112,7 @@ namespace LibraryManagementSystem
             var UserFormInstance = Application.OpenForms.OfType<UserForm>().FirstOrDefault();
             if (UserFormInstance != null)
             {
+                UserFormInstance.LoadBooksData();
                 UserFormInstance.Show();
             }
             this.Hide();

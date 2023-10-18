@@ -24,7 +24,7 @@ namespace LibraryManagementSystem
 
         private void RegisterForm_Load(object sender, EventArgs e)
         {
-
+            textBox2.PasswordChar = '*';
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -67,6 +67,20 @@ namespace LibraryManagementSystem
 
             MessageBox.Show("Registration successful!");
             this.Close();
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            if (textBox2.PasswordChar == '*')
+            {
+                textBox2.PasswordChar = '\0';
+                button1.Text = "Hide Password";
+            }
+            else
+            {
+                textBox2.PasswordChar = '*';
+                button1.Text = "Show Password";
+            }
         }
     }
 }

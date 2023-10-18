@@ -108,13 +108,13 @@
             button1.Name = "button1";
             button1.Size = new Size(122, 43);
             button1.TabIndex = 1;
-            button1.Text = "borrow a book";
+            button1.Text = "Borrow a book";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
             // button2
             // 
-            button2.Location = new Point(625, 106);
+            button2.Location = new Point(625, 100);
             button2.Name = "button2";
             button2.Size = new Size(122, 42);
             button2.TabIndex = 2;

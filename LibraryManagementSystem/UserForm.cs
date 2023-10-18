@@ -27,12 +27,17 @@ namespace LibraryManagementSystem
 
         private void UserForm_Load(object sender, EventArgs e)
         {
+            LoadBooksData();
+        }
+        public void LoadBooksData()
+        {
             using (var context = new LibraryContext())
             {
                 var books = context.Books.ToList();
                 dataGridView1.DataSource = books;
             }
         }
+
 
         private void button1_Click(object sender, EventArgs e)
         {

@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 8.0.29, for Win64 (x86_64)
+-- MySQL dump 10.13  Distrib 8.0.34, for Win64 (x86_64)
 --
 -- Host: localhost    Database: library
 -- ------------------------------------------------------
--- Server version	8.0.29
+-- Server version	8.0.34
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -29,7 +29,7 @@ CREATE TABLE `loginaccount` (
   `Role` varchar(45) NOT NULL,
   PRIMARY KEY (`Id`),
   UNIQUE KEY `idabc_UNIQUE` (`Id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -38,7 +38,7 @@ CREATE TABLE `loginaccount` (
 
 LOCK TABLES `loginaccount` WRITE;
 /*!40000 ALTER TABLE `loginaccount` DISABLE KEYS */;
-INSERT INTO `loginaccount` VALUES (1,'Emma','123','admin'),(2,'Mike','456','user'),(3,'Alice','789','reception'),(4,'Kevin','abc','Reception');
+INSERT INTO `loginaccount` VALUES (1,'Emma','123','admin'),(2,'Mike','456','user'),(3,'Alice','789','reception'),(4,'Kevin','abc','Reception'),(5,'jerry','111','user');
 /*!40000 ALTER TABLE `loginaccount` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -51,4 +51,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-10-16 17:01:06
+-- Dump completed on 2023-10-18 14:08:27
